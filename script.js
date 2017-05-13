@@ -1,13 +1,16 @@
 $(document).ready(function(){
 
-    function createCanvas(){
-    	var canvas = ("<canvas></canvas>");
-     for(var i=0; i < 16; i++){
-     $("body").append(canvas);
-      }
-    }; 
-    
-    
+    var box = "<div><div>";
+    var second = "<p></p>"
+  
+   for(var x=0; x < 16; x++){
+   for(var i=0; i < 16; i++){
+   	$("body").append(box + "<br>");
+   	}
+}
+  
+  
+  
  
    
 
